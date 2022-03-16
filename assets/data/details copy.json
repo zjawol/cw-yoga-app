@@ -1,0 +1,195 @@
+{
+  "items": [
+    {
+      "title": "Prayer",
+      "name": "Pranamasana",
+      "image": "1-Pranamasana-1024x683.webp",
+      "details": [ 
+        "Stand upright bringing the feet together and arms by your sides.", 
+        "Slowly bend your elbows to join your palms in a Namaskar Mudra in front of the chest.",
+        "Close your eyes, relax the entire body, and keep breathing normally.",
+        "Keep your focus around the chest on Anahata Chakra and chant 'Om Mitraya Namaha'."
+      ],
+      "breathing": "Normal. Keep breathing normally",
+      "benefits": [
+        "Prayer pose signifies the dedication towards the Sun and sun salutation.",
+        "It calms the mind, develops patience, and relieves stress or anxiety.",
+        "It activates the Anahata chakra and helps in balancing the emotions."
+      ]
+    },
+    {
+      "title": "Raised arms",
+      "name": "Hasta Utthanasana",
+      "image": "2-Hastauttanasana-1024x683.webp",
+      "details": ["After exhaling deeply in prayer pose, inhale – separating the hands raising and stretching the arms over the head.",
+        "Inhale, look up and bend the body slightly backward and push the pelvis forward Keep the arms shoulder-width apart.",
+        "Feel the stretch in the belly and expansion of the lungs.",
+        "Chant Om Ravaye Namaha, while practicing hasta utthanasana."
+      ],
+      "breathing": "Inhale",
+      "benefits": ["Stretches the arms, abdomen, neck, and back muscles.",
+        "Stimulates the Vishuddhi chakra and balances the thyroid and parathyroid gland and regulates the endocrine system.",
+        "This posture is beneficial in improving digestion.",
+        "It activates the Anahata chakra and helps in balancing the emotions."
+      ]
+    },
+    {
+      "title": "Standing forward bend",
+      "name": "Padahastasana",
+      "image": "",
+      "details": ["Exhale and fold forward from the hips placing the palms on the floor on either side of the feet",
+        "Try to bring the head as close as possible to the knees",
+        "The chest rests against the thighs holding this position",
+        "This is practiced while chanting, 'Om Suryaya Namaha.'"
+      ],
+      "breathing": "Exhale",
+      "benefits": ["Padahastasana stretches the spine and makes it supple",
+        "It strengthens the thighs, calves, and knees",
+        "It even relieves anxiety, stress, and headaches",
+        "This pose has therapeutic action on insomnia and osteoporosis",
+        "It stimulates the Sacral chakra and enhances the creative side of the practitioner as well as brings in pleasure",
+        "It is also beneficial for the digestive and reproductive systems."
+      ]
+    },
+    {
+      "title": "Equestrian",
+      "name": "Ashwa Sanchalanasana",
+      "image": "",
+      "details": ["Inhale, step the right leg back pushing the foot as far as possible, placing the knee on the floor with tucked-in toes",
+        "Bend the left knee to place the foot on the floor",
+        "Press the palms or fingertips beside the left foot on the floor",
+        "Arch the back and tilt the head backward lifting the chin to look up",
+        "Here, chant Om Bhanave Namaha."
+      ],
+      "breathing": "Inhale",
+      "benefits": ["Ashwa Sanchalanasana enhances the strength of the legs and spine",
+        "It increases lung capacity and improves the respiratory system",
+        "On the energetic level, it works on Ajna Chakra and develops brain capacity",
+        "It cures constipation, indigestion, and sciatica."
+      ]
+    },
+    {
+      "title": "Four-limb",
+      "name": "Chaturanga Dandasana",
+      "image": "",
+      "details": ["Inhale drawing the left foot backward placing it beside the right",
+        "Exhale curling the toes in and pressing the hands on the floor lower the chest closer to the floor",
+        "Balance the entire body on the toes and hands."
+      ],
+      "breathing": "Inhale",
+      "benefits": ["This posture focuses on strengthening the core muscles and tones the abdominal muscles",
+        "It strengthens the arms, shoulders, and wrists",
+        "Chaturanga dandasana also helps improve posture as the spinal muscles also gain strength",
+        "The core muscles are actively engaged holding this posture that helps in burning the abdominal fat."
+      ]
+    },
+    {
+      "title": "Eight Limbed",
+      "name": "Ashtanga Namaskar",
+      "image": "",
+      "details": ["Exhale and lower the knees to the floor and take your hips slightly back",
+        "Slide little forward placing the chest and chin on the floor",
+        "Therefore, only the toes, knees, chest, hands, and chin touch the floor",
+        "The buttocks, hips, and abdomen are kept raised",
+        "It is done chanting, Om Pushne Namaha."
+      ],
+      "breathing": "Exhale",
+      "benefits": ["It strengthens the arms and leg muscles",
+        "It stimulates the Manipura Chakra",
+        "This pose also relieves digestive ailments."
+      ]
+    },
+    {
+      "title": "Cobra",
+      "name": "Bhujangasana",
+      "image": "",
+      "details": ["Inhale, lower the hips, point the toes back, and slide the chest forward",
+        "Arch the back rolling the shoulders down",
+        "Slowly look up like the cobra raises its hood",
+        "Chant Om Pushne Namaha."
+      ],
+      "breathing": "Inhale",
+      "benefits": ["It improves the blood circulation",
+        "This pose stretches the shoulders, chest, back, and legs muscles",
+        "It improves the flexibility of the spine",
+        "It activates the sacral chakra",
+        "This relieves the menstrual pain, backache, and sciatica."
+      ]
+    },
+    {
+      "title": "Downward Facing Dog",
+      "name": "Adho Mukha Svanasana",
+      "image": "",
+      "details": ["Exhaling lift the hips and push them backward to place the heels on the floor and straighten the arms",
+        "Lower the head between the arms, forming an inverted V with the legs, arms, and back",
+        "Press the palms and heels on the floor, and take a few breaths",
+        "Chant Om Khagaya Namaha, during this pose"
+      ],
+      "breathing": "Exhale",
+      "benefits": ["It activates the vishuddhi chakra",
+        "This inverted pose supplies oxygenated blood to the brain and calms the mind",
+        "It also improves body posture and helps in increasing height."
+      ]
+    },
+    {
+      "title": "Equestrian",
+      "name": "Ashwa Sanchalanasana",
+      "image": "",
+      "details": ["Breathe in to bring the right forward between the hands bending the knee",
+        "Simultaneously, lower the left knee to touch the floor, tuck the left toes in, and push the pelvis forward",
+        "Tilt the head backward to gaze up as in pose 4 reciting, 'Om Adityaya Namaha.'"
+      ],
+      "breathing": "Inhale",
+      "benefits": []
+    },
+    {
+      "title": "Standing forward bend",
+      "name": "Padahastasana",
+      "image": "",
+      "details": ["Exhale and fold forward from the hips placing the palms on the floor on either side of the feet",
+        "Try to bring the head as close as possible to the knees",
+        "The chest rests against the thighs holding this position",
+        "This is practiced while chanting, 'Om Suryaya Namaha.'"
+      ],
+      "breathing": "Exhale",
+      "benefits": ["Padahastasana stretches the spine and makes it supple",
+        "It strengthens the thighs, calves, and knees",
+        "It even relieves anxiety, stress, and headaches",
+        "This pose has therapeutic action on insomnia and osteoporosis",
+        "It stimulates the Sacral chakra and enhances the creative side of the practitioner as well as brings in pleasure",
+        "It is also beneficial for the digestive and reproductive systems."
+      ]
+    },
+    {
+      "title": "Raised arms",
+      "name": "Hasta Utthanasana",
+      "image": "2-Hastauttanasana-1024x683.webp",
+      "details": ["After exhaling deeply in prayer pose, inhale – separating the hands raising and stretching the arms over the head",
+        "Inhale, look up and bend the body slightly backward and push the pelvis forward Keep the arms shoulder-width apart",
+        "Feel the stretch in the belly and expansion of the lungs",
+        "Chant Om Ravaye Namaha, while practicing hasta utthanasana."
+      ],
+      "breathing": "Inhale",
+      "benefits": ["Stretches the arms, abdomen, neck, and back muscles",
+        "Stimulates the Vishuddhi chakra and balances the thyroid and parathyroid gland and regulates the endocrine system",
+        "This posture is beneficial in improving digestion",
+        "It also relieves backaches, fatigue, and cures mild anxiety."
+      ]
+    },
+    {
+      "title": "Prayer",
+      "name": "Pranamasana",
+      "image": "1-Pranamasana-1024x683.webp",
+      "details": ["Stand upright bringing the feet together and arms by your sides",
+        "Slowly bend your elbows to join your palms in a Namaskar Mudra in front of the chest",
+        "Close your eyes, relax the entire body, and keep breathing normally",
+        "Keep your focus around the chest on Anahata Chakra and chant 'Om Mitraya Namaha'."
+      ],
+      "breathing": "Exhale",
+      "benefits": ["Prayer pose signifies the dedication towards the Sun and sun salutation",
+        "It calms the mind, develops patience, and relieves stress or anxiety",
+        "It activates the Anahata chakra and helps in balancing the emotions."
+      ]
+    }
+  ]
+}
