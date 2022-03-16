@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:async';
-// import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -27,7 +26,7 @@ class Steps with ChangeNotifier {
   List<dynamic> _fromJson = [];
   int _currentId = 0;
   int _repetition = 1;
-  int _cycles = 24;
+  int _cycles = 12;
   int _repCouter = 0;
   int _stepTime = 1;
   bool _isAutoSlide = false;
@@ -45,12 +44,13 @@ class Steps with ChangeNotifier {
   bool get displayBenefits => _displayBenefits;
   // Fetch data from Json fille and create a data object
   Future<void> get fetchData async {
-    final respond = await rootBundle.loadString('assets/data/details.json');
-    final decoded = json.decode(respond);
-    _fromJson = decoded['items'];
-    print("Fetching data from JSON file ...");
-    createList();
-    notifyListeners();
+    if (_steps.isEmpty) {
+      final respond = await rootBundle.loadString('assets/data/details.json');
+      final decoded = json.decode(respond);
+      _fromJson = decoded['items'];
+      print("Fetching data from JSON file ...");
+      createList();
+    }
   }
 
   void createList() {
@@ -78,6 +78,7 @@ class Steps with ChangeNotifier {
     } else {
       _currentId++;
     }
+    initDelayTimer();
     notifyListeners();
   }
 
@@ -90,48 +91,33 @@ class Steps with ChangeNotifier {
     notifyListeners();
   }
 
-  // void setCycles() {
-  //   _cycles = _repetition * 2 * steps.length;
-  // }
+  void setCycles() {
+    _cycles = _repetition * 2 * steps.length;
+  }
 
   void initDelayTimer() {
     final Timer _delayTimer;
-    // int cycles = _repetition * 2 * steps.length;
-    // int c = 0;
-    _delayTimer = Timer(Duration(seconds: (stepTime)), () {
-      // for (var check = 0; check < _cycles - 1; check++) {
-      // if (_stepTime != 0) {
-      // if (_currentStepNo > 0 && _currentStepNo < _totalSteps - 1) {
-      // if (_isAutoSlide && _currentId == (steps.length - 1)) {
-      //   _currentId = 0;
-      // } else {
-      // _currentId++;
-      // incrementId();
-      // initDelayTimer();
-      // }
-      // if (check == cycles - 1) {
-      //   toggleAutoSlide();
-      // }
-      // }
-      // notifyListeners();
-      // }
-    });
-    // incrementId();
-    // notifyListeners();
+    _delayTimer = Timer(
+      Duration(seconds: (_stepTime)),
+      () {
+        if (_stepTime != 0) {
+          if (_isAutoSlide && _currentId < steps.length - 1) {
+            incrementId();
+          } else {
+            toggleAutoSlide(false);
+          }
+        }
+      },
+    );
+    notifyListeners();
   }
 
-  void toggleAutoSlide() {
-    _isAutoSlide = !_isAutoSlide;
-    // if (_isAutoSlide && _stepTime != 0) {
-    //   for (int check = 0; check < _cycles - 1; check++) {
-    //     // print("LOOP " + check.toString());
-    //     incrementId();
-    //     notifyListeners();
-    //   }
-    // }
-    // setCycles();
-    //
-    initDelayTimer();
+  void toggleAutoSlide(bool status) {
+    _isAutoSlide = status;
+    if (status) {
+      initDelayTimer();
+      incrementId();
+    }
     notifyListeners();
   }
 

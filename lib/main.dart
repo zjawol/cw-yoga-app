@@ -24,7 +24,7 @@ class SuryaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // context.read<Steps>().fetchData;
-    final steps = Provider.of<Steps>(context);
+    // final steps = Provider.of<Steps>(context);
     context.read<Steps>().fetchData;
     return MaterialApp(
       initialRoute: '/',

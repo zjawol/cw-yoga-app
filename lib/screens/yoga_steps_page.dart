@@ -14,7 +14,6 @@ class YogaStepsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final poses = context.read<Steps>();
     final poses = Provider.of<Steps>(context);
     final pose = poses.getStepById();
     return Scaffold(

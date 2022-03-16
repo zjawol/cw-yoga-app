@@ -8,7 +8,7 @@ class SettingsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final poses = context.read<Steps>();
+    final poses = Provider.of<Steps>(context);
     return Scaffold(
         appBar: AppBar(
           title: Text('Yoga freedom -> Settings'),
